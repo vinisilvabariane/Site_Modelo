@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Bella - Atriz e Modelo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <script>
+        $(document).ready(function () {
+            $('.carousel').slick({
+                autoplay: true,
+                dots: true,
+                arrows: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '0'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="principal">
+        <img src="imagens/capa.png" alt="Capa Anna Bella">
+
+        <div id="menu">
+            <a href="index.html">Home</a> |
+            <a href="biografia.html">Biografia</a> |
+            <a href="camp.html">Campanhas Publicitárias</a> |
+            <a href="cont.html">Contato</a>
+        </div>
+
+        <div id="conteudo" class="destaque">
+            <h1>Anna Bella - Elegância e Talento</h1>
+            <p>Bem-vindo ao site oficial da renomada modelo e atriz Anna Bella. Descubra sua trajetória, seus trabalhos
+                e entre em contato para colaborações.</p>
+
+            <h2>Destaques</h2>
+            <p>Com uma carreira brilhante no mundo da moda e da atuação, Anna Bella já participou de campanhas
+                internacionais e estrelou grandes produções.</p>
+
+            <h2>Últimos Trabalhos</h2>
+            <p>Confira as campanhas publicitárias mais recentes e os projetos cinematográficos que contam com sua
+                participação.</p>
+
+            <div class="carousel">
+                <div><img src="imagens/foto1.png" alt="Trabalho 1"></div>
+                <div><img src="imagens/foto2.png" alt="Trabalho 2"></div>
+                <div><img src="imagens/foto3.png" alt="Trabalho 3"></div>
+            </div>
+        </div>
+
+        <div id="rodape">
+            <b>Todos os direitos reservados &copy; 2025</b>
+        </div>
+    </div>
+</body>
+
+</html>

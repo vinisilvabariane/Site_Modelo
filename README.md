@@ -25,4 +25,4 @@ Com uma interface intuitiva e responsiva, o site permite:
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [https://github.com/vinisilvabariane/Portfolio-Modelo.git](https://github.com/vinisilvabariane/Site_Modelo.git)
+   git clone https://github.com/vinisilvabariane/Site_Modelo.git
